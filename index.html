@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name — projects, skills, and contact info." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="data:," />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#top" class="logo">Your Name</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="top" class="hero container">
+      <img class="avatar" src="https://via.placeholder.com/160" alt="Your profile photo" />
+      <h1>Hi, I'm <span class="accent">Your Name</span></h1>
+      <p class="tagline">Short tagline about what you do — e.g. "Software Engineer · Builder · Open Source Enthusiast"</p>
+
+      <!-- Status / tech badges -->
+      <div class="badges">
+        <img src="https://img.shields.io/badge/status-available-brightgreen" alt="Available for work" />
+        <img src="https://img.shields.io/github/followers/your-username?style=social" alt="GitHub followers" />
+        <img src="https://img.shields.io/badge/location-Earth-blue" alt="Location" />
+      </div>
+
+      <!-- Pride / LGBTQ badges -->
+      <div class="badges pride-badges">
+        <img src="https://img.shields.io/badge/Pride-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-ff69b4" alt="Pride badge" />
+        <img src="https://img.shields.io/badge/LGBTQ%2B-Ally-rainbow?color=ff69b4" alt="LGBTQ+ Ally" />
+        <img src="https://img.shields.io/badge/Trans%20Rights-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%E2%9A%A7%EF%B8%8F-5BCEFA" alt="Trans Rights" />
+      </div>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-secondary" href="#contact">Get in Touch</a>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>About Me</h2>
+      <p>
+        Write a few sentences about who you are, what you're passionate about,
+        and what kind of work you're looking for. Replace this placeholder text
+        with your own story.
+      </p>
+    </section>
+
+    <section id="skills" class="container section">
+      <h2>Skills</h2>
+      <div class="badges tech-badges">
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" alt="React" />
+        <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" alt="Node.js" />
+        <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" alt="Git" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker" />
+      </div>
+      <p class="hint">Swap these for the badges that match your actual stack — <a href="https://shields.io" target="_blank" rel="noopener">shields.io</a> has hundreds more.</p>
+    </section>
+
+    <section id="projects" class="container section">
+      <h2>Projects</h2>
+      <div class="project-grid">
+
+        <article class="project-card">
+          <h3>Project One</h3>
+          <p>One or two sentences describing the project, the problem it solves, and the tech used.</p>
+          <div class="badges">
+            <img src="https://img.shields.io/badge/repo-private-lightgrey" alt="repo status" />
+          </div>
+          <div class="project-links">
+            <a href="#">Live Demo</a>
+            <a href="#">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Project Two</h3>
+          <p>One or two sentences describing the project, the problem it solves, and the tech used.</p>
+          <div class="badges">
+            <img src="https://img.shields.io/badge/repo-private-lightgrey" alt="repo status" />
+          </div>
+          <div class="project-links">
+            <a href="#">Live Demo</a>
+            <a href="#">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Project Three</h3>
+          <p>One or two sentences describing the project, the problem it solves, and the tech used.</p>
+          <div class="badges">
+            <img src="https://img.shields.io/badge/repo-private-lightgrey" alt="repo status" />
+          </div>
+          <div class="project-links">
+            <a href="#">Live Demo</a>
+            <a href="#">Source</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Get in Touch</h2>
+      <p>Replace these with your real links.</p>
+      <div class="contact-links">
+        <a href="mailto:you@example.com">Email</a>
+        <a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Your Name. Built with ❤️ and 🏳️‍🌈 pride.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
