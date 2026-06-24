@@ -1,4 +1,4 @@
-# My Portfolio
+# My Portfolio (not online for now)
 
 A personal portfolio site built with plain HTML/CSS/JS, hosted on GitHub Pages.
 
